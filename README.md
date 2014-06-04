@@ -29,4 +29,4 @@ After that, execute e.g. `:NeoSnippetEdit c.snip` in Vim.
 
 [MIT](http://opensource.org/licenses/MIT)
 
-Copyright © 2014 ka
+Copyright (C) 2014 ka
