@@ -1,5 +1,30 @@
 snippet rubygems
 abbr source RubyGems.org
-    source 'https://rubygems.org'
+    source "https://rubygems.org"
 
-    gem '${1:name}'${2}
+    gem "${1:name}"${0}
+
+snippet map
+options word
+    map { _1${0} }
+
+snippet mapmethod
+options word
+    map(&:${1:method})${0}
+
+snippet each
+options word
+    each { _1${0} }
+
+snippet mapelement
+options word
+    map do |${1:e}|
+      ${0}
+    end
+
+snippet eachelement
+options word
+    each do |${1:e}|
+      ${0}
+    end
+
